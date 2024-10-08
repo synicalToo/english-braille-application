@@ -1,0 +1,70 @@
+#canvas {
+    /*
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-top: 1px solid #DEE3E6;
+    border-left: 1px solid #DEE3E6;
+    background-color: #FFFFFF; */
+    border: 3px solid #817d7d;
+    border-radius: 10px;
+}
+
+@font-face{
+    font-family: 'sixbraille20';
+    src: url('sixbraille20.woff2') format('woff2');
+}
+
+.kakomu {
+    padding: 0px 0px;
+    margin: 0 0px;
+    background-color: #000000;
+    border: 1px solid #777;
+    border-radius: 2px;
+    box-shadow: 1px 2px 2px #ddd;
+    font-family: 'sixbraille20';
+    font-size: var(120%);
+}
+
+tr:nth-child(odd) {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+tr:nth-child(even) {
+    color: #ffffff;
+}
+
+.clients {
+    padding: 0px 0;
+    text-align: center;
+}
+
+.clients img {
+    max-width: 45%; 
+    transition: all 0.4s ease-in-out;
+    padding: 15px 0;
+}
+  
+.clients img:hover {
+    filter: none;
+    transform: scale(1.15);
+}
+
+.logo {
+    font-size: 28px; 
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+.logo a {
+    color: #717A84;
+    text-decoration: none;
+}
+  
+.logo img {
+    max-height: 36px;
+}
