@@ -663,6 +663,44 @@ let task_theme = {
 // 点字落ちゲー用課題リスト
 let down_task_list = [
   [
+    ["a", "a", "⠁", "a", "1"],
+    ["b", "b", "⠁", "b", "1"],
+    ["c", "c", "⠁", "c", "1"],
+    ["d", "d", "⠁", "d", "1"],
+    ["e", "e", "⠁", "e", "1"],
+    ["f", "f", "⠁", "f", "1"],
+    ["g", "g", "⠁", "g", "1"],
+    ["h", "h", "⠁", "h", "1"],
+    ["i", "i", "⠁", "i", "1"],
+    ["j", "j", "⠁", "j", "1"],
+    ["k", "k", "⠁", "k", "1"],
+    ["l", "l", "⠁", "l", "1"],
+    ["m", "m", "⠁", "m", "1"],
+    ["n", "n", "⠁", "n", "1"],
+    ["o", "o", "⠁", "o", "1"],
+    ["p", "p", "⠁", "p", "1"],
+    ["q", "q", "⠁", "q", "1"],
+    ["r", "r", "⠁", "r", "1"],
+    ["s", "s", "⠁", "s", "1"],
+    ["t", "t", "⠁", "t", "1"],
+    ["u", "u", "⠁", "u", "1"],
+    ["v", "v", "⠁", "v", "1"],
+    ["w", "w", "⠁", "w", "1"],
+    ["x", "x", "⠁", "x", "1"],
+    ["y", "y", "⠁", "y", "1"],
+    ["z", "z", "⠁", "z", "1"],
+  ],
+
+  [
+    ["boy", "boy", "⠃⠕⠽", "boy", "123"],
+    ["girl", "girl", "⠛⠊⠗⠇", "girl", "1234"],
+    ["hat", "hat", "⠓⠁⠞", "hat", "123"],
+    ["boat", "boat", "⠃⠕⠁⠞", "boat", "1234"],
+    ["run", "run", "⠗⠥⠝", "run", "123"],
+    ["jump", "jump", "⠚⠥⠍⠏", "jump", "1234"],
+  ],
+
+  [
     // 1. 五十音
     ["あひる", "あひる", "⠁⠧⠙", "アヒル", "123"],
     ["うし", "うし", "⠉⠳", "ウシ", "12"],
@@ -722,33 +760,15 @@ let down_task_list = [
     ["パイオニア", "ぱいおにあ", "⠠⠥⠃⠊⠇⠁", "半ハイオニア", "012345"],
     ["パキスタン", "ぱきすたん", "⠠⠥⠣⠹⠕⠴", "半ハキスタン", "012345"],
     ["パラグアイ", "ぱらぐあい", "⠠⠥⠑⠐⠩⠁⠃", "半ハラ濁クアイ", "0122345"],
-    [
-      "パイナップル",
-      "ぱいなっぷる",
-      "⠠⠥⠃⠅⠂⠠⠭⠙",
-      "半ハイナッ半フル",
-      "01234456",
-    ],
+    ["パイナップル", "ぱいなっぷる", "⠠⠥⠃⠅⠂⠠⠭⠙", "半ハイナッ半フル", "01234456"],
     ["サッカー", "さっかー", "⠱⠂⠡⠒", "サッカウ", "1234"],
     ["ドリル", "どりる", "⠐⠞⠓⠙", "濁トリル", "0123"],
     ["ゴリラ", "ごりら", "⠐⠪⠓⠑", "濁コリラ", "0123"],
     ["デジタル", "でじたる", "⠐⠟⠐⠳⠕⠙", "濁テ濁シタル", "011234"],
     ["デザイナー", "でざいなー", "⠐⠟⠐⠱⠃⠅⠒", "濁テ濁サイナウ", "0112345"],
     ["ドローン", "どろーん", "⠐⠞⠚⠒⠴", "濁トロウン", "01234"],
-    [
-      "タッチパネル",
-      "たっちぱねる",
-      "⠕⠂⠗⠀⠠⠥⠏⠙",
-      "タッチ　半ハネル",
-      "12333456",
-    ],
-    [
-      "ポストイット",
-      "ぽすといっと",
-      "⠠⠮⠹⠞⠀⠃⠂⠞",
-      "半ホスト　イット",
-      "01233456",
-    ],
+    ["タッチパネル", "たっちぱねる", "⠕⠂⠗⠀⠠⠥⠏⠙", "タッチ　半ハネル", "12333456"],
+    ["ポストイット", "ぽすといっと", "⠠⠮⠹⠞⠀⠃⠂⠞", "半ホスト　イット", "01233456"],
     ["財団", "ざいだん", "⠐⠱⠃⠐⠕⠴", "濁サイ濁タン", "001112"],
     ["粗大ゴミ", "そだいごみ", "⠺⠐⠕⠃⠀⠐⠪⠷", "ソ濁タイ　濁コミ", "11122234"],
     ["大学", "だいがく", "⠐⠕⠃⠐⠡⠩", "濁タイ濁カク", "001112"],
@@ -757,29 +777,11 @@ let down_task_list = [
     ["トレーニング", "とれーにんぐ", "⠞⠛⠒⠇⠴⠐⠩", "トレウニン濁ク", "1234556"],
     ["ネッカチーフ", "ねっかちーふ", "⠏⠂⠡⠗⠒⠭", "ネッカチウフ", "123456"],
     ["年月日", "ねんがっぴ", "⠏⠴⠐⠡⠂⠠⠧", "ネン濁カッ半ヒ", "0111223"],
-    [
-      "ノートブック",
-      "のーとぶっく",
-      "⠎⠒⠞⠀⠐⠭⠂⠩",
-      "ノウト　濁フック",
-      "12333456",
-    ],
-    [
-      "ペットフード",
-      "ぺっとふーど",
-      "⠠⠯⠂⠞⠀⠭⠒⠐⠞",
-      "半ヘット　フウ濁ト",
-      "01234556",
-    ],
+    ["ノートブック", "のーとぶっく", "⠎⠒⠞⠀⠐⠭⠂⠩", "ノウト　濁フック", "12333456"],
+    ["ペットフード", "ぺっとふーど", "⠠⠯⠂⠞⠀⠭⠒⠐⠞", "半ヘット　フウ濁ト", "01234556"],
     ["ペンギン", "ぺんぎん", "⠠⠯⠴⠐⠣⠴", "半ヘン濁キン", "012234"],
     ["ベッド", "べっど", "⠐⠯⠂⠐⠞", "濁ヘッ濁ト", "01223"],
-    [
-      "ポップコーン",
-      "ぽっぷこーん",
-      "⠠⠮⠂⠠⠭⠪⠒⠴",
-      "半ホッ半フコウン",
-      "01223456",
-    ],
+    ["ポップコーン", "ぽっぷこーん", "⠠⠮⠂⠠⠭⠪⠒⠴", "半ホッ半フコウン", "01223456"],
   ],
   [
     // 3. 拗音・拗濁音・拗半濁音
@@ -802,13 +804,7 @@ let down_task_list = [
     ["情報", "じょうほう", "⠘⠺⠒⠮⠒", "≧ソウホウ", "00112"],
     ["お茶漬け", "おちゃづけ", "⠊⠈⠕⠐⠝⠫", "オ拗タ濁ツケ", "112234"],
     ["ジャンプ", "じゃんぷ", "⠘⠱⠴⠠⠭", "≧サン半フ", "02334"],
-    [
-      "中小企業",
-      "ちゅうしょうきぎょう",
-      "⠈⠝⠒⠈⠺⠒⠀⠣⠘⠪⠒",
-      "拗ツウ拗ソウ　キ≧コウ",
-      "00111223334",
-    ],
+    ["中小企業", "ちゅうしょうきぎょう", "⠈⠝⠒⠈⠺⠒⠀⠣⠘⠪⠒", "拗ツウ拗ソウ　キ≧コウ", "00111223334"],
     ["チョコレート", "ちょこれーと", "⠈⠞⠪⠛⠒⠞", "拗トコレウト", "023456"],
     ["授業", "じゅぎょう", "⠘⠹⠘⠪⠒", "≧ス≧コウ", "01112"],
     ["チャンピオン", "ちゃんぴおん", "⠈⠕⠴⠠⠧⠊⠴", "拗タン半ヒオン", "0233456"],
@@ -826,20 +822,8 @@ let down_task_list = [
     ["病院", "びょういん", "⠘⠮⠒⠃⠴", "≧ホウイン", "00112"],
     ["嘘八百", "うそはっぴゃく", "⠉⠺⠥⠂⠨⠥⠩", "ウソハッ▲ハク", "0112223"],
     ["コンピューター", "こんぴゅーたー", "⠪⠴⠨⠭⠒⠕⠒", "コン▲フウタウ", "1224567"],
-    [
-      "支払伝票",
-      "しはらいでんぴょう",
-      "⠳⠥⠑⠃⠀⠐⠟⠴⠨⠮⠒",
-      "シハライ　濁テン▲ホウ",
-      "01122223334",
-    ],
-    [
-      "アルプス山脈",
-      "あるぷすさんみゃく",
-      "⠁⠙⠠⠭⠹⠀⠱⠴⠈⠵⠩",
-      "アル半フス　サン拗マク",
-      "12234445556",
-    ],
+    ["支払伝票", "しはらいでんぴょう", "⠳⠥⠑⠃⠀⠐⠟⠴⠨⠮⠒", "シハライ　濁テン▲ホウ", "01122223334"],
+    ["アルプス山脈", "あるぷすさんみゃく", "⠁⠙⠠⠭⠹⠀⠱⠴⠈⠵⠩", "アル半フス　サン拗マク", "12234445556"],
     ["ミュージック", "みゅーじっく", "⠈⠽⠒⠐⠳⠂⠩", "拗ムウ濁シック", "0233456"],
     ["明星", "みょうじょう", "⠈⠾⠒⠘⠺⠒", "拗モウ≧ソウ", "001112"],
     ["戦略", "せんりゃく", "⠻⠴⠈⠑⠩", "セン拗ラク", "01112"],
@@ -853,29 +837,11 @@ let down_task_list = [
     ["ヴァイオリン", "ばいおりん", "⠲⠥⠃⠊⠓⠴", "▽ハイオリン", "023456"],
     ["ジェノバ", "じぇのば", "⠘⠻⠎⠐⠥", "≧セノ濁ハ", "02334"],
     ["ファイル", "ふぁいる", "⠢⠥⠃⠙", "特ハイル", "0234"],
-    [
-      "イェロゾリムスキェ",
-      "いぇろぞりむすきぇ",
-      "⠈⠋⠚⠐⠺⠓⠽⠹⠈⠫",
-      "拗エロ濁ソリムス拗ケ",
-      "0233456778",
-    ],
-    [
-      "アルツィバーシェフ",
-      "あるつぃばーしぇふ",
-      "⠁⠙⠢⠗⠐⠥⠒⠈⠻⠭",
-      "アル特チ濁ハウ拗セフ",
-      "1224456689",
-    ],
+    ["イェロゾリムスキェ", "いぇろぞりむすきぇ", "⠈⠋⠚⠐⠺⠓⠽⠹⠈⠫", "拗エロ濁ソリムス拗ケ", "0233456778"],
+    ["アルツィバーシェフ", "あるつぃばーしぇふ", "⠁⠙⠢⠗⠐⠥⠒⠈⠻⠭", "アル特チ濁ハウ拗セフ", "1224456689"],
     ["チェロ", "ちぇろ", "⠈⠟⠚", "拗テロ", "023"],
     ["ピニェイロ", "ぴにぇいろ", "⠠⠧⠈⠏⠃⠚", "半ヒ拗ネイロ", "011345"],
-    [
-      "ミッヒェルシュタット",
-      "みっひぇるしゅたっと",
-      "⠷⠂⠈⠯⠙⠈⠹⠕⠂⠞",
-      "ミッ拗ヘル拗スタット",
-      "022455779a",
-    ],
+    ["ミッヒェルシュタット", "みっひぇるしゅたっと", "⠷⠂⠈⠯⠙⠈⠹⠕⠂⠞", "ミッ拗ヘル拗スタット", "022455779a"],
     ["ウィルス", "うぃるす", "⠢⠃⠙⠹", "特イルス", "0234"],
     ["アウェイ", "あうぇい", "⠁⠢⠋⠃", "ア特エイ", "1134"],
     ["ウォール", "うぉーる", "⠢⠊⠒⠙", "特オール", "0234"],
@@ -884,20 +850,8 @@ let down_task_list = [
     ["クェスチョン", "くぇすちょん", "⠢⠫⠹⠈⠞⠴", "特ケス拗トン", "023356"],
     ["クォータリー", "くぉーたりー", "⠢⠪⠒⠕⠓⠒", "特コウタリウ", "023456"],
     ["グァテマラ", "ぐぁてまら", "⠲⠡⠟⠵⠑", "▽カテマラ", "02345"],
-    [
-      "ティツィアーノ",
-      "てぃつぃあーの",
-      "⠈⠗⠢⠗⠁⠒⠎",
-      "拗チ特チアウノ",
-      "0224567",
-    ],
-    [
-      "ハチャトゥリヤン",
-      "はちゃとぅりやん",
-      "⠥⠈⠕⠢⠝⠓⠌⠴",
-      "ハ拗タ特ツリヤン",
-      "11335678",
-    ],
+    ["ティツィアーノ", "てぃつぃあーの", "⠈⠗⠢⠗⠁⠒⠎", "拗チ特チアウノ", "0224567"],
+    ["ハチャトゥリヤン", "はちゃとぅりやん", "⠥⠈⠕⠢⠝⠓⠌⠴", "ハ拗タ特ツリヤン", "11335678"],
     ["ヒンドゥー", "ひんどぅー", "⠧⠴⠲⠝⠒", "ヒン▽ツウ", "12245"],
     ["ヴィーナス", "びーなす", "⠲⠧⠒⠅⠹", "▽ヒウナス", "02345"],
     ["ヴェール", "べーる", "⠲⠯⠒⠙", "▽ヘウル", "0234"],
@@ -913,32 +867,14 @@ let down_task_list = [
     ["アーティスト", "あーてぃすと", "⠁⠒⠈⠗⠹⠞", "アウ拗チスト", "122456"],
     ["アルトゥール", "あるとぅーる", "⠁⠙⠢⠝⠒⠙", "アル特ツウル", "122456"],
     ["ゲズィーラ", "げずぃーら", "⠐⠫⠘⠳⠒⠑", "濁ケ≧シウラ", "011345"],
-    [
-      "インスティテュート",
-      "いんすてぃちゅーと",
-      "⠃⠴⠹⠈⠗⠨⠝⠒⠞",
-      "インス拗チ≧ツート",
-      "123355789",
-    ],
-    [
-      "フューチャーズ",
-      "ふゅーちゃーず",
-      "⠨⠬⠒⠈⠕⠒⠐⠹",
-      "≧ユウ拗タウ濁ス",
-      "02335667",
-    ],
+    ["インスティテュート", "いんすてぃちゅーと", "⠃⠴⠹⠈⠗⠨⠝⠒⠞", "インス拗チ≧ツート", "123355789"],
+    ["フューチャーズ", "ふゅーちゃーず", "⠨⠬⠒⠈⠕⠒⠐⠹", "≧ユウ拗タウ濁ス", "02335667"],
     ["デュエット", "でゅえっと", "⠸⠝⠋⠂⠞", "▼ツエット", "02345"],
   ],
   [
     // 5. 英語
     ["SDGs", "えすでーじーず", "⠰⠠⠠⠎⠙⠛⠰⠎", "外大S大D大Gs", "00012334"],
-    [
-      "Happy birthday",
-      "はっぴー ばーすでい",
-      "⠦⠠⠓⠁⠏⠏⠽⠀⠃⠊⠗⠞⠓⠙⠁⠽⠴",
-      "〔大Happy　birthday〕",
-      "00123456789abcdee",
-    ],
+    ["Happy birthday", "はっぴー ばーすでい", "⠦⠠⠓⠁⠏⠏⠽⠀⠃⠊⠗⠞⠓⠙⠁⠽⠴", "〔大Happy　birthday〕", "00123456789abcdee"],
     ["Sony", "そにー", "⠦⠠⠎⠕⠝⠽⠴", "〔大Sony〕", "0012344"],
     ["Canon", "きゃのん", "⠦⠠⠉⠁⠝⠕⠝⠴", "〔大Canon〕", "00123455"],
     ["JAL", "じゃる", "⠰⠠⠠⠚⠁⠇", "外大大JAL", "000123"],
@@ -954,42 +890,12 @@ let down_task_list = [
     ["June", "じゅん", "⠦⠠⠚⠥⠇⠽⠴", "〔大June〕", "0012344"],
     ["July", "じゅらい", "⠦⠠⠚⠥⠇⠽⠴", "〔大July〕", "0012344"],
     ["August", "おーがすと", "⠦⠠⠁⠥⠛⠥⠎⠞⠴", "〔大August〕", "001234566"],
-    [
-      "September",
-      "せぷてんばー",
-      "⠦⠠⠎⠑⠏⠞⠑⠍⠃⠑⠗⠴",
-      "〔大September〕",
-      "001234567899",
-    ],
+    ["September", "せぷてんばー", "⠦⠠⠎⠑⠏⠞⠑⠍⠃⠑⠗⠴", "〔大September〕", "001234567899"],
     ["October", "おくとーばー", "⠦⠠⠕⠉⠞⠕⠃⠑⠗⠴", "〔大October〕", "0012345677"],
-    [
-      "November",
-      "のーべんばー",
-      "⠦⠠⠝⠕⠧⠑⠍⠃⠑⠗⠴",
-      "〔大November〕",
-      "00123456788",
-    ],
-    [
-      "December",
-      "でっせんばー",
-      "⠦⠠⠙⠑⠉⠑⠍⠃⠑⠗⠴",
-      "〔大December〕",
-      "00123456788",
-    ],
-    [
-      "Helen Keller",
-      "へれん けらー",
-      "⠦⠠⠓⠑⠇⠑⠝⠀⠠⠅⠑⠇⠇⠑⠗⠴",
-      "〔大Helen　大Keller〕",
-      "001234566789abcc",
-    ],
-    [
-      "Louis Braille",
-      "るいす ぶれいる",
-      "⠦⠠⠇⠕⠥⠊⠎⠀⠠⠃⠗⠁⠊⠇⠇⠑⠴",
-      "〔大Louis　大Braille〕",
-      "001234566789abcdd",
-    ],
+    ["November", "のーべんばー", "⠦⠠⠝⠕⠧⠑⠍⠃⠑⠗⠴", "〔大November〕", "00123456788"],
+    ["December", "でっせんばー", "⠦⠠⠙⠑⠉⠑⠍⠃⠑⠗⠴", "〔大December〕", "00123456788"],
+    ["Helen Keller", "へれん けらー", "⠦⠠⠓⠑⠇⠑⠝⠀⠠⠅⠑⠇⠇⠑⠗⠴", "〔大Helen　大Keller〕", "001234566789abcc"],
+    ["Louis Braille", "るいす ぶれいる", "⠦⠠⠇⠕⠥⠊⠎⠀⠠⠃⠗⠁⠊⠇⠇⠑⠴", "〔大Louis　大Braille〕", "001234566789abcdd"],
     ["Apple", "あっぷる", "⠦⠠⠁⠏⠏⠇⠑⠴", "〔大Apple〕", "00123455"],
     ["Orange", "おれんじ", "⠦⠠⠕⠗⠁⠝⠛⠑⠴", "〔大Orange〕", "001234566"],
     ["Peach", "ぴーち", "⠦⠠⠏⠑⠁⠉⠓⠴", "〔大Peach〕", "00123455"],
@@ -1004,52 +910,16 @@ let down_task_list = [
     ["9.5", "きゅうてんご", "⠼⠊⠂⠑", "数9.5", "0123"],
     ["475.5", "よんひゃくななじゅうごてんご", "⠼⠙⠛⠑⠂⠑", "数475.5", "012345"],
     ["183.8", "ひゃくはちじゅうさんてんはち", "⠼⠁⠓⠉⠂⠓", "数183.8", "01234"],
-    [
-      "52,760",
-      "ごまんにせんななひゃくろくじゅう",
-      "⠼⠑⠃⠄⠛⠋⠚",
-      "数52,760",
-      "0123456",
-    ],
+    ["52,760", "ごまんにせんななひゃくろくじゅう", "⠼⠑⠃⠄⠛⠋⠚", "数52,760", "0123456"],
     ["500", "ごひゃく", "⠼⠑⠚⠚", "数500", "0123"],
     ["9800", "きゅうせんはっぴゃく", "⠼⠊⠓⠚⠚", "数9800", "01234"],
     ["2023", "にせんにじゅうさん", "⠼⠃⠚⠃⠉", "数2023", "01234"],
     ["7000", "ななせん", "⠼⠛⠚⠚⠚", "数7000", "01234"],
-    [
-      "1,234,567",
-      "ひゃくにじゅう３まんよんせんごひゃくろくじゅうなな",
-      "⠼⠁⠄⠃⠉⠙⠄⠑⠋⠛",
-      "数1,234,567",
-      "0123456789",
-    ],
-    [
-      "756,439",
-      "ななじゅうごまんろくせんよんひゃくさんじゅうきゅう",
-      "⠼⠛⠑⠋⠄⠙⠉⠊",
-      "数756,439",
-      "01234567",
-    ],
-    [
-      "439,782",
-      "よんじゅうさんまんきゅうせんななひゃくはちじゅうに",
-      "⠼⠙⠉⠊⠄⠛⠓⠃",
-      "数439,782",
-      "01234567",
-    ],
-    [
-      "976,400",
-      "きゅうじゅうななまんろくせんよんひゃく",
-      "⠼⠊⠛⠋⠄⠙⠚⠚",
-      "数976,400",
-      "01234567",
-    ],
-    [
-      "823,105",
-      "はちじゅうにまんさんぜんひゃくご",
-      "⠼⠓⠃⠉⠄⠁⠚⠑",
-      "数823,105",
-      "01234567",
-    ],
+    ["1,234,567", "ひゃくにじゅう３まんよんせんごひゃくろくじゅうなな", "⠼⠁⠄⠃⠉⠙⠄⠑⠋⠛", "数1,234,567", "0123456789"],
+    ["756,439", "ななじゅうごまんろくせんよんひゃくさんじゅうきゅう", "⠼⠛⠑⠋⠄⠙⠉⠊", "数756,439", "01234567"],
+    ["439,782", "よんじゅうさんまんきゅうせんななひゃくはちじゅうに", "⠼⠙⠉⠊⠄⠛⠓⠃", "数439,782", "01234567"],
+    ["976,400", "きゅうじゅうななまんろくせんよんひゃく", "⠼⠊⠛⠋⠄⠙⠚⠚", "数976,400", "01234567"],
+    ["823,105", "はちじゅうにまんさんぜんひゃくご", "⠼⠓⠃⠉⠄⠁⠚⠑", "数823,105", "01234567"],
     ["七五三", "しちごさん", "⠼⠛⠼⠑⠼⠉", "数7数5数3", "011223"],
     ["五七五", "ごしちご", "⠼⠑⠼⠛⠼⠑", "数5数7数5", "011223"],
     [
@@ -1062,74 +932,26 @@ let down_task_list = [
   ],
   [
     // 7. すべて混在
-    [
-      "PTA会長",
-      "ぴーてぃえーかいちょう",
-      "⠰⠠⠠⠏⠞⠁⠀⠡⠃⠈⠞⠒",
-      "外大大PTA　カイ拗トウ",
-      "000123334445",
-    ],
-    [
-      "学校へ行く",
-      "がっこうへいく",
-      "⠐⠡⠂⠪⠒⠋⠀⠃⠩",
-      "濁カッコウエ　イク",
-      "001123345",
-    ],
+    ["PTA会長", "ぴーてぃえーかいちょう", "⠰⠠⠠⠏⠞⠁⠀⠡⠃⠈⠞⠒", "外大大PTA　カイ拗トウ", "000123334445"],
+    ["学校へ行く", "がっこうへいく", "⠐⠡⠂⠪⠒⠋⠀⠃⠩", "濁カッコウエ　イク", "001123345"],
     ["2億年", "におくねん", "⠼⠃⠤⠊⠩⠏⠴", "数2継オクネン", "0111223"],
     ["3LDK", "さんえるでぃーけー", "⠼⠉⠰⠠⠠⠇⠙⠅", "数3外大大LDK", "01111234"],
     ["四角形", "しかっけい", "⠼⠙⠡⠩⠫⠃", "数4カクケイ", "011223"],
     ["１列", "いちれつ", "⠼⠁⠤⠛⠝", "数1継レツ", "01112"],
     ["１枚", "いちまい", "⠼⠁⠵⠃", "数1マイ", "0112"],
     ["１０数人", "じゅうすうにん", "⠼⠁⠚⠹⠒⠇⠴", "数10スウニン", "0122334"],
-    [
-      "JAL72便",
-      "じゃるななじゅうにびん",
-      "⠰⠠⠠⠚⠁⠇⠀⠼⠛⠃⠐⠧⠴",
-      "外大大JAL　数72濁ヒン",
-      "0001233345556",
-    ],
-    [
-      "CD-ROM",
-      "しーでぃーろむ",
-      "⠰⠠⠠⠉⠙⠤⠰⠠⠠⠗⠕⠍",
-      "外大大CD-外大大ROM",
-      "000123333456",
-    ],
+    ["JAL72便", "じゃるななじゅうにびん", "⠰⠠⠠⠚⠁⠇⠀⠼⠛⠃⠐⠧⠴", "外大大JAL　数72濁ヒン", "0001233345556"],
+    ["CD-ROM", "しーでぃーろむ", "⠰⠠⠠⠉⠙⠤⠰⠠⠠⠗⠕⠍", "外大大CD-外大大ROM", "000123333456"],
     ["390-0802", "390-0802", "⠼⠉⠊⠚⠎⠀⠼⠚⠓⠚⠃", "数390ノ　数0802", "01234445678"],
-    [
-      "100円玉",
-      "ひゃくえんだま",
-      "⠼⠁⠚⠚⠤⠋⠴⠐⠕⠵",
-      "数100継エン濁タマ",
-      "0123334456",
-    ],
+    ["100円玉", "ひゃくえんだま", "⠼⠁⠚⠚⠤⠋⠴⠐⠕⠵", "数100継エン濁タマ", "0123334456"],
     ["X線", "えっくすせん", "⠰⠠⠭⠤⠻⠴", "外大X継セン", "001112"],
-    [
-      "ビタミンB2",
-      "びたみんびーつー",
-      "⠐⠧⠕⠷⠴⠀⠰⠠⠃⠼⠃",
-      "濁ヒタミン　外大B数2",
-      "01234444556",
-    ],
-    [
-      "県立美術館",
-      "けんりつびじゅつかん",
-      "⠫⠴⠓⠝⠀⠐⠧⠘⠹⠝⠡⠴",
-      "ケンリツ　濁ヒ≧スツカン",
-      "011222333445",
-    ],
+    ["ビタミンB2", "びたみんびーつー", "⠐⠧⠕⠷⠴⠀⠰⠠⠃⠼⠃", "濁ヒタミン　外大B数2", "01234444556"],
+    ["県立美術館", "けんりつびじゅつかん", "⠫⠴⠓⠝⠀⠐⠧⠘⠹⠝⠡⠴", "ケンリツ　濁ヒ≧スツカン", "011222333445"],
     ["令和５年", "れいわごねん", "⠛⠃⠄⠼⠑⠏⠴", "レイワ数5ネン", "0122334"],
     ["零下７度", "れいかななど", "⠛⠃⠡⠼⠛⠐⠞", "レイカ数7濁ト", "0122334"],
     ["一輪車", "いちりんしゃ", "⠼⠁⠤⠓⠴⠈⠱", "数1継リン拗サ", "0111223"],
     ["50円", "ごじゅうえん", "⠼⠑⠚⠤⠋⠴", "数50継エン", "012223"],
-    [
-      "フォーラム in 京都",
-      "ふぉーらむいんきょうと",
-      "⠢⠮⠒⠑⠽⠀⠦⠊⠝⠴⠀⠈⠪⠒⠞",
-      "特ホウラム　〔in〕　拗コウト",
-      "023456667888889a",
-    ],
+    ["フォーラム in 京都", "ふぉーらむいんきょうと", "⠢⠮⠒⠑⠽⠀⠦⠊⠝⠴⠀⠈⠪⠒⠞", "特ホウラム　〔in〕　拗コウト", "023456667888889a"],
     ["Gift券", "ぎふとけん", "⠦⠠⠛⠊⠋⠞⠴⠤⠫⠴", "〔大gift〕継ケン", "0012344445"],
     ["赤Wine", "あかわいん", "⠁⠡⠦⠠⠺⠊⠝⠑⠴", "アカ〔大wine〕", "011123455"],
   ],
@@ -1239,24 +1061,8 @@ var intermediate_task_list_braille = [
   "⠛⠴⠑⠩⠱⠣⠀⠼⠚⠊⠚⠤⠼⠓⠚⠚⠚⠤⠼⠛⠋⠚⠉",
 ];
 // 上級コース課題リスト
-var advanced_task_list_jp = [
-  "５０円",
-  "４６万",
-  "1,000,000",
-  "793.4",
-  "２，３時間",
-  "長野市徳間716",
-  "PTA会長",
-];
-var advanced_task_list_braille = [
-  "⠼⠑⠚⠤⠋⠴",
-  "⠼⠙⠋⠵⠴",
-  "⠼⠁⠄⠚⠚⠚⠄⠚⠚⠚",
-  "⠼⠛⠊⠉⠂⠙",
-  "⠼⠃⠼⠉⠐⠳⠡⠴",
-  "⠅⠐⠡⠎⠳⠀⠞⠩⠵⠀⠼⠛⠁⠋",
-  "⠰⠠⠠⠏⠞⠁⠀⠡⠃⠈⠞⠒",
-];
+var advanced_task_list_jp = ["５０円", "４６万", "1,000,000", "793.4", "２，３時間", "長野市徳間716", "PTA会長"];
+var advanced_task_list_braille = ["⠼⠑⠚⠤⠋⠴", "⠼⠙⠋⠵⠴", "⠼⠁⠄⠚⠚⠚⠄⠚⠚⠚", "⠼⠛⠊⠉⠂⠙", "⠼⠃⠼⠉⠐⠳⠡⠴", "⠅⠐⠡⠎⠳⠀⠞⠩⠵⠀⠼⠛⠁⠋", "⠰⠠⠠⠏⠞⠁⠀⠡⠃⠈⠞⠒"];
 // ロケール
 const locale_en = {
   main_title: "Braille Typing Exercises",
@@ -1455,39 +1261,15 @@ var BrailleLine = class {
       }
     } else if (this.open) {
       if (this.clearUp) {
-        putBrailleRotate(
-          this.braille,
-          this.x,
-          this.y,
-          this.angle,
-          this.clearColor
-        );
+        putBrailleRotate(this.braille, this.x, this.y, this.angle, this.clearColor);
       } else {
-        putBrailleRotate(
-          this.braille,
-          this.x,
-          this.y,
-          this.angle,
-          this.defaultColor
-        );
+        putBrailleRotate(this.braille, this.x, this.y, this.angle, this.defaultColor);
       }
     } else if (this.close) {
       if (this.clearUp) {
-        putBrailleRotate(
-          this.braille,
-          this.x,
-          this.y,
-          this.angle,
-          this.clearColor
-        );
+        putBrailleRotate(this.braille, this.x, this.y, this.angle, this.clearColor);
       } else {
-        putBrailleRotate(
-          this.braille,
-          this.x,
-          this.y,
-          this.angle,
-          this.defaultColor
-        );
+        putBrailleRotate(this.braille, this.x, this.y, this.angle, this.defaultColor);
       }
     } else {
       if (this.clearUp) {
@@ -1533,9 +1315,7 @@ var BrailleLine = class {
             } else {
               skipped++;
               if (soundEffectName != "none") {
-                document
-                  .getElementById(soundEffect[soundEffectName]["skip"])
-                  .play();
+                document.getElementById(soundEffect[soundEffectName]["skip"]).play();
               }
               //pos = abcPos;
               this.outside = true;
@@ -1593,17 +1373,7 @@ var Explosion = class {
   }
   draw() {
     if (this.smoke) {
-      context.drawImage(
-        this.image,
-        this.frame * this.sw,
-        0,
-        this.sw,
-        this.sh,
-        this.x,
-        this.y,
-        this.size,
-        this.size
-      );
+      context.drawImage(this.image, this.frame * this.sw, 0, this.sw, this.sh, this.x, this.y, this.size, this.size);
     }
   }
   update(deltatime) {
@@ -1808,42 +1578,21 @@ function main() {
   // 点字タイプライター画像表示
   imgBrailler.src = "../../assets/images/perkins_brailler.png";
   imgBrailler.onload = () => {
-    context.drawImage(
-      imgBrailler,
-      cw / 2 - 464 / 2,
-      ch / 2 - 328 / 2,
-      464,
-      328
-    );
+    context.drawImage(imgBrailler, cw / 2 - 464 / 2, ch / 2 - 328 / 2, 464, 328);
   };
 
   // ボタン表示（フリー入力）
   if (lowVision) {
-    drawButton(
-      square_freeTyping,
-      locale_en.main_btnFree,
-      colorPalette.yellow2,
-      "black"
-    );
+    drawButton(square_freeTyping, locale_en.main_btnFree, colorPalette.yellow2, "black");
   } else {
-    drawButton(
-      square_freeTyping,
-      locale_en.main_btnFree,
-      colorPalette.red2,
-      "white"
-    );
+    drawButton(square_freeTyping, locale_en.main_btnFree, colorPalette.red2, "white");
   }
 
   // ボタン表示（ゲーム）
   if (lowVision) {
     drawButton(square_typingGame, locale_en.main_btnGame, "white", "black");
   } else {
-    drawButton(
-      square_typingGame,
-      locale_en.main_btnGame,
-      colorPalette.gray2,
-      colorPalette.gray4
-    );
+    drawButton(square_typingGame, locale_en.main_btnGame, colorPalette.gray2, colorPalette.gray4);
   }
 
   // 著作権表示
@@ -1879,15 +1628,10 @@ function drawButton(square, name, bg_color, text_color) {
   context.font = 'bold 16pt "メイリオ"';
   context.fillStyle = text_color;
   var tw = context.measureText(name).width;
-  var th =
-    context.measureText(name).actualBoundingBoxAscent +
-    context.measureText(name).actualBoundingBoxDescent;
-  context.fillText(
-    name,
-    square.x + square.w / 2 - tw / 2,
-    square.y + (square.h - th) / 2 + th
-  );
+  var th = context.measureText(name).actualBoundingBoxAscent + context.measureText(name).actualBoundingBoxDescent;
+  context.fillText(name, square.x + square.w / 2 - tw / 2, square.y + (square.h - th) / 2 + th);
 }
+
 //-------------------------
 /*
 var btn_freeTyping = false;
@@ -2008,6 +1752,7 @@ function drawBtnIsHover() {
 }
 */
 //-------------------------
+
 function onClick(e) {
   var canvas = document.getElementById("canvas");
   const rect = canvas.getBoundingClientRect();
@@ -2050,10 +1795,7 @@ function onClick(e) {
     is_hint = false;
     freeTypingStart();
   }
-  if (
-    (hit_typingGame && screen_name == screenName.menu) ||
-    (hit_finishRetry && screen_name == screenName.finish)
-  ) {
+  if ((hit_typingGame && screen_name == screenName.menu) || (hit_finishRetry && screen_name == screenName.finish)) {
     course = 1;
     is_hint = true;
     lessonStart();
@@ -2123,12 +1865,7 @@ function drawVirtualBraille() {
   if (lowVision) {
     drawButton(square_freeBack, locale_en.free_btnBack, "white", "black");
   } else {
-    drawButton(
-      square_freeBack,
-      locale_en.free_btnBack,
-      colorPalette.gray2,
-      colorPalette.gray4
-    );
+    drawButton(square_freeBack, locale_en.free_btnBack, colorPalette.gray2, colorPalette.gray4);
   }
 
   // 入力領域の下線を表示
@@ -2154,7 +1891,7 @@ function lessonStart() {
     document.getElementById("areyoureadyaudio").play();
   }
   time_remaining = maxTime;
-  readytime = 3;
+  readytime = 1; // TODO: CHANGE BACK TO 3
   readytimer = setInterval(function () {
     countdown123();
   }, 1000);
@@ -2171,11 +1908,7 @@ function countdown123() {
   } else {
     context.fillStyle = colorPalette.gray4;
   }
-  context.fillText(
-    readytime,
-    context.canvas.clientWidth / 2 - 24,
-    context.canvas.clientHeight / 2 + 24
-  );
+  context.fillText(readytime, context.canvas.clientWidth / 2 - 24, context.canvas.clientHeight / 2 + 24);
   readytime--;
   if (readytime < 0) {
     clearAll();
@@ -2195,7 +1928,7 @@ function gameStart() {
   if (screen_name == screenName.game2) showTask();
   gametimer = setInterval(function () {
     countdownTimer();
-  }, 1000);
+  }, 100); // TODO: CHANGE BACK TO 1000
 }
 function countdownTimer() {
   //showProgress();
@@ -2211,10 +1944,7 @@ function putScore() {
   if (correct == 0 && mistake == 0) {
     score = 0;
   } else {
-    score = Math.floor(
-      Math.pow(correct, 2) *
-        Math.pow(correct / (correct + mistake + skipped), 5)
-    );
+    score = Math.floor(Math.pow(correct, 2) * Math.pow(correct / (correct + mistake + skipped), 5));
   }
   //context.clearRect(cw - 150, 10, 147, 30);
   // スコア表示領域描画
@@ -2229,11 +1959,7 @@ function putScore() {
   // スコアを表示
   context.font = 'normal 12pt "メイリオ"';
   context.fillStyle = "white";
-  context.fillText(
-    "スコア : " + score + "点",
-    context.canvas.clientWidth - 150,
-    30
-  );
+  context.fillText("Score : " + score + " points", context.canvas.clientWidth - 150, 30);
 }
 function showProgress() {
   if (lowVision) {
@@ -2364,19 +2090,9 @@ function drawBackground() {
 
   // キャンセルボタン表示
   if (lowVision) {
-    drawButton(
-      square_gameCancel,
-      locale_en.game_btnCancel,
-      "rgba(0, 0, 0, 0.8)",
-      "white"
-    );
+    drawButton(square_gameCancel, locale_en.game_btnCancel, "rgba(0, 0, 0, 0.8)", "white");
   } else {
-    drawButton(
-      square_gameCancel,
-      locale_en.game_btnCancel,
-      "rgba(0, 0, 0, 0.5)",
-      "white"
-    );
+    drawButton(square_gameCancel, locale_en.game_btnCancel, "rgba(0, 0, 0, 0.5)", "white");
   }
 
   // 入力課題を表示
@@ -2395,11 +2111,7 @@ function drawBackground() {
   } else {
     var color = colorPalette.red1;
   }
-  var task =
-    down_task_list[taskNum][random][0] +
-    "（" +
-    down_task_list[taskNum][random][2] +
-    "）";
+  var task = down_task_list[taskNum][random][0] + "（" + down_task_list[taskNum][random][2] + "）";
   var tw = context.measureText(task).width;
   var sx = cw / 2 - tw / 2;
   if (pos == 0) {
@@ -2459,11 +2171,7 @@ function drawBackground() {
 
   var isClose = true;
   for (var i = 0; i < brailleLines.length; i++) {
-    if (
-      !brailleLines[i].outside &&
-      brailleLines[i].clearUp &&
-      !brailleLines[i].wallPass
-    ) {
+    if (!brailleLines[i].outside && brailleLines[i].clearUp && !brailleLines[i].wallPass) {
       isClose = false;
     }
   }
@@ -2553,63 +2261,21 @@ function showTask() {
   context.fillText("この日本語を点字で入力してください", 60, 100);
   if (course == 1) {
     random = Math.floor(Math.random() * beginners_task_list_braille.length);
-    putRoundText(
-      context,
-      60,
-      150,
-      beginners_task_list_jp[random],
-      colorPalette.gray4,
-      true
-    );
+    putRoundText(context, 60, 150, beginners_task_list_jp[random], colorPalette.gray4, true);
     if (is_hint) {
-      putRoundText(
-        context,
-        60,
-        250,
-        beginners_task_list_braille[random],
-        colorPalette.gray4,
-        true
-      );
+      putRoundText(context, 60, 250, beginners_task_list_braille[random], colorPalette.gray4, true);
     }
   } else if (course == 2) {
     random = Math.floor(Math.random() * intermediate_task_list_braille.length);
-    putRoundText(
-      context,
-      60,
-      150,
-      intermediate_task_list_jp[random],
-      colorPalette.gray4,
-      true
-    );
+    putRoundText(context, 60, 150, intermediate_task_list_jp[random], colorPalette.gray4, true);
     if (is_hint) {
-      putRoundText(
-        context,
-        60,
-        250,
-        intermediate_task_list_braille[random],
-        colorPalette.gray4,
-        true
-      );
+      putRoundText(context, 60, 250, intermediate_task_list_braille[random], colorPalette.gray4, true);
     }
   } else if (course == 3) {
     random = Math.floor(Math.random() * advanced_task_list_braille.length);
-    putRoundText(
-      context,
-      60,
-      150,
-      advanced_task_list_jp[random],
-      colorPalette.gray4,
-      true
-    );
+    putRoundText(context, 60, 150, advanced_task_list_jp[random], colorPalette.gray4, true);
     if (is_hint) {
-      putRoundText(
-        context,
-        60,
-        250,
-        advanced_task_list_braille[random],
-        colorPalette.gray4,
-        true
-      );
+      putRoundText(context, 60, 250, advanced_task_list_braille[random], colorPalette.gray4, true);
     }
   }
   charInsort();
@@ -2622,18 +2288,19 @@ function showTask() {
 }
 function showFooter() {
   let names = [
-    "かな",
-    "数字",
+    "kana",
+    "Numbers",
     "外字",
-    "大文字",
+    "Uppercase letters",
     "外国語引用",
     "濁音",
     "半濁音",
     "拗音",
     "特殊音",
     "つなぎ",
-    "囲み",
+    "Box",
   ];
+
   var flags = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
   var k = 0;
   for (var i = 0; i < inKakomis.length; i++) {
@@ -2642,6 +2309,7 @@ function showFooter() {
       break;
     }
   }
+
   switch (inmode) {
     case "かな":
     case "外国語引用符終了":
@@ -2759,9 +2427,7 @@ function finish() {
     cancelAnimationFrame(animaid);
   }
   screen_name = screenName.finish;
-  score = Math.floor(
-    Math.pow(correct, 2) * Math.pow(correct / (correct + mistake + skipped), 5)
-  );
+  score = Math.floor(Math.pow(correct, 2) * Math.pow(correct / (correct + mistake + skipped), 5));
   var upthere = document.getElementById("upthereaudio");
   upthere.addEventListener("ended", function (e) {
     var goodjob = document.getElementById("goodjobaudio");
@@ -2785,32 +2451,28 @@ function finish() {
 
   context.font = 'bold 24pt "メイリオ"';
   context.fillStyle = "white";
-  context.fillText("スコア", 270, 150);
-  var result = score + " 点";
+  context.fillText("Score", 270, 150);
+  var result = score + " points";
   var w = context.measureText(result).width;
   context.fillText(result, 530 - w, 150);
 
   context.font = 'normal 16pt "メイリオ"';
   context.fillStyle = "white";
-  context.fillText("正タイプ", 290, 200);
+  context.fillText("Correct", 290, 200);
   context.fillText(correct, 420, 200);
 
-  context.fillText("ミスタイプ", 290, 250);
+  context.fillText("Wrong", 290, 250);
   if (mistake > 0) context.fillStyle = errorColor;
   context.fillText(mistake, 420, 250);
 
   context.fillStyle = "white";
-  context.fillText("スキップ", 290, 300);
+  context.fillText("Skipped", 290, 300);
   if (skipped > 0) context.fillStyle = errorColor;
   context.fillText(skipped, 420, 300);
 
   context.fillStyle = "white";
-  context.fillText("正答率", 290, 350);
-  context.fillText(
-    ((correct / (correct + mistake + skipped)) * 100).toFixed(1) + " %",
-    420,
-    350
-  );
+  context.fillText("Percentage", 290, 350);
+  context.fillText(((correct / (correct + mistake + skipped)) * 100).toFixed(1) + " %", 420, 350);
 
   gameEndProcessing();
   braille_char = 0;
@@ -2822,26 +2484,11 @@ function finish() {
   isGaming = false;
   clearKeyState();
   if (lowVision) {
-    drawButton(
-      square_finishRetry,
-      locale_en.finish_btnRetry,
-      colorPalette.yellow2,
-      "black"
-    );
+    drawButton(square_finishRetry, locale_en.finish_btnRetry, colorPalette.yellow2, "black");
     drawButton(square_finishBack, locale_en.finish_btnBack, "white", "black");
   } else {
-    drawButton(
-      square_finishRetry,
-      locale_en.finish_btnRetry,
-      colorPalette.red2,
-      "white"
-    );
-    drawButton(
-      square_finishBack,
-      locale_en.finish_btnBack,
-      colorPalette.gray2,
-      colorPalette.gray4
-    );
+    drawButton(square_finishRetry, locale_en.finish_btnRetry, colorPalette.red2, "white");
+    drawButton(square_finishBack, locale_en.finish_btnBack, colorPalette.gray2, colorPalette.gray4);
   }
   showCopyright();
 }
@@ -2865,9 +2512,7 @@ function finish2() {
   upthere.play();
   clearAll();
   //drawFrame();
-  score = Math.floor(
-    Math.pow(correct, 2) * Math.pow(correct / (correct + mistake + skipped), 5)
-  );
+  score = Math.floor(Math.pow(correct, 2) * Math.pow(correct / (correct + mistake + skipped), 5));
   context.font = 'bold 32pt "メイリオ"';
   context.fillStyle = colorPalette.gray4;
   context.fillText("スコア", 150, 100);
@@ -2888,11 +2533,7 @@ function finish2() {
   context.fillText(skipped, 500, 350);
   context.fillStyle = colorPalette.gray4;
   context.fillText("正答率", 200, 400);
-  context.fillText(
-    ((correct / (correct + mistake + skipped)) * 100).toFixed(1) + " %",
-    500,
-    400
-  );
+  context.fillText(((correct / (correct + mistake + skipped)) * 100).toFixed(1) + " %", 500, 400);
   braille_char = 0;
   random = 0;
   pos = 0;
@@ -2903,14 +2544,7 @@ function finish2() {
   context.lineWidth = 2;
   context.fillStyle = colorPalette.red2;
   context.strokeStyle = colorPalette.red2;
-  fillRoundRect(
-    context,
-    square_finishBack.x,
-    square_finishBack.y,
-    square_finishBack.w,
-    square_finishBack.h,
-    25
-  );
+  fillRoundRect(context, square_finishBack.x, square_finishBack.y, square_finishBack.w, square_finishBack.h, 25);
   context.font = 'normal 16pt "メイリオ"';
   var btn_name = locale_en.finish_btnBack;
   var tw = context.measureText(btn_name).width;
@@ -3023,36 +2657,20 @@ function putBrailleRotate(braille, x, y, angle, color) {
   var cy = y;
   putDot(context, x, y, r, color, onOff[0]);
   var rad = (angle * Math.PI) / 180;
-  var rx =
-    cx + Math.cos(rad) * (x - cx) - Math.sin(rad) * (y + (r + d + r) - cy);
-  var ry =
-    cy + Math.sin(rad) * (x - cx) + Math.cos(rad) * (y + (r + d + r) - cy);
+  var rx = cx + Math.cos(rad) * (x - cx) - Math.sin(rad) * (y + (r + d + r) - cy);
+  var ry = cy + Math.sin(rad) * (x - cx) + Math.cos(rad) * (y + (r + d + r) - cy);
   putDot(context, rx, ry, r, color, onOff[1]);
-  rx =
-    cx + Math.cos(rad) * (x - cx) - Math.sin(rad) * (y + (r + d + r) * 2 - cy);
-  ry =
-    cy + Math.sin(rad) * (x - cx) + Math.cos(rad) * (y + (r + d + r) * 2 - cy);
+  rx = cx + Math.cos(rad) * (x - cx) - Math.sin(rad) * (y + (r + d + r) * 2 - cy);
+  ry = cy + Math.sin(rad) * (x - cx) + Math.cos(rad) * (y + (r + d + r) * 2 - cy);
   putDot(context, rx, ry, r, color, onOff[2]);
   cx = x + (r + d + r);
   putDot(context, x + (r + d + r), y, r, color, onOff[3]);
   rad = ((360 - angle) * Math.PI) / 180;
-  rx =
-    cx +
-    Math.cos(rad) * (x + (r + d + r) - cx) -
-    Math.sin(rad) * (y + (r + d + r) - cy);
-  ry =
-    cy +
-    Math.sin(rad) * (x + (r + d + r) - cx) +
-    Math.cos(rad) * (y + (r + d + r) - cy);
+  rx = cx + Math.cos(rad) * (x + (r + d + r) - cx) - Math.sin(rad) * (y + (r + d + r) - cy);
+  ry = cy + Math.sin(rad) * (x + (r + d + r) - cx) + Math.cos(rad) * (y + (r + d + r) - cy);
   putDot(context, rx, ry, r, color, onOff[4]);
-  rx =
-    cx +
-    Math.cos(rad) * (x + (r + d + r) - cx) -
-    Math.sin(rad) * (y + (r + d + r) * 2 - cy);
-  ry =
-    cy +
-    Math.sin(rad) * (x + (r + d + r) - cx) +
-    Math.cos(rad) * (y + (r + d + r) * 2 - cy);
+  rx = cx + Math.cos(rad) * (x + (r + d + r) - cx) - Math.sin(rad) * (y + (r + d + r) * 2 - cy);
+  ry = cy + Math.sin(rad) * (x + (r + d + r) - cx) + Math.cos(rad) * (y + (r + d + r) * 2 - cy);
   putDot(context, rx, ry, r, color, onOff[5]);
 }
 function putJP(ctx, x, y, color) {
@@ -3108,10 +2726,7 @@ function putJP(ctx, x, y, color) {
         if (braille == "000000") {
           if (pos > 1) {
             // パーセント％
-            if (
-              log_braille[pos - 1] == "111100" &&
-              log_braille[pos - 2] == "000011"
-            ) {
+            if (log_braille[pos - 1] == "111100" && log_braille[pos - 2] == "000011") {
               jp = "%";
               x -= 40;
               clearSumiji(pos - 1);
@@ -3126,10 +2741,7 @@ function putJP(ctx, x, y, color) {
         } else if (braille == "101010") {
           if (pos > 1) {
             // 右矢印（-->）
-            if (
-              log_braille[pos - 2] == "010010" &&
-              log_braille[pos - 1] == "010010"
-            ) {
+            if (log_braille[pos - 2] == "010010" && log_braille[pos - 1] == "010010") {
               if (jp == "タ") {
                 jp = "→";
                 if (pos > 2 && log_braille[pos - 3] == "010101") {
@@ -3143,10 +2755,7 @@ function putJP(ctx, x, y, color) {
         } else if (braille == "010010") {
           if (pos > 1) {
             // 左矢印（<--）
-            if (
-              log_braille[pos - 2] == "010101" &&
-              log_braille[pos - 1] == "010010"
-            ) {
+            if (log_braille[pos - 2] == "010101" && log_braille[pos - 1] == "010010") {
               jp = "←";
               clearSumiji(pos - 2);
               clearSumiji(pos - 1);
@@ -3161,11 +2770,7 @@ function putJP(ctx, x, y, color) {
             clearSumiji(pos - 1);
             inKakomis[kakomi_no["（"]] = false;
             inmode = "かな";
-          } else if (
-            pos > 1 &&
-            log_braille[pos - 2] == "010000" &&
-            log_braille[pos - 1] == "010000"
-          ) {
+          } else if (pos > 1 && log_braille[pos - 2] == "010000" && log_braille[pos - 1] == "010000") {
             // 点線：…
             jp = "…";
             clearSumiji(pos - 2);
@@ -3181,11 +2786,7 @@ function putJP(ctx, x, y, color) {
           }
         } else if (braille == "011000") {
           // 外字符＋囲み　終了：】、』、》
-          if (
-            pos > 1 &&
-            log_braille[pos - 1] in gaijifu_kakomi &&
-            log_braille[pos - 2] != "000011"
-          ) {
+          if (pos > 1 && log_braille[pos - 1] in gaijifu_kakomi && log_braille[pos - 2] != "000011") {
             jp = gaijifu_kakomi[log_braille[pos - 1]];
             inKakomis[kakomi_no[jp]] = false;
             jp = kakomi_pair[jp];
@@ -3221,11 +2822,7 @@ function putJP(ctx, x, y, color) {
         if (braille in kana) {
           if (braille == "011000") {
             // 外字符＋囲み　終了：】、』、》
-            if (
-              pos > 1 &&
-              log_braille[pos - 1] in gaijifu_kakomi &&
-              log_braille[pos - 2] != "000011"
-            ) {
+            if (pos > 1 && log_braille[pos - 1] in gaijifu_kakomi && log_braille[pos - 2] != "000011") {
               jp = gaijifu_kakomi[log_braille[pos - 1]];
               inKakomis[kakomi_no[jp]] = false;
               jp = kakomi_pair[jp];
@@ -3238,11 +2835,7 @@ function putJP(ctx, x, y, color) {
           }
         } else if (braille == "001001") {
           // パーセント：％
-          if (
-            pos > 1 &&
-            log_braille[pos - 2] == "000011" &&
-            log_braille[pos - 1] == "111100"
-          ) {
+          if (pos > 1 && log_braille[pos - 2] == "000011" && log_braille[pos - 1] == "111100") {
             jp = "%";
             x -= 40;
             clearSumiji(pos - 1);
@@ -3326,16 +2919,10 @@ function putJP(ctx, x, y, color) {
         if (jp in tokushu) {
           jp = tokushu[jp];
           if (jp == "？") {
-            if (
-              log_braille[pos - 2] == "010001" &&
-              log_braille[pos - 1] == "010001"
-            ) {
+            if (log_braille[pos - 2] == "010001" && log_braille[pos - 1] == "010001") {
               // 特殊音符が2つ並んで空白の場合は第二星印、1つで空白の場合は疑問符？
               jp = "☆";
-            } else if (
-              log_braille[pos - 2] == "000001" &&
-              log_braille[pos - 1] == "010001"
-            ) {
+            } else if (log_braille[pos - 2] == "000001" && log_braille[pos - 1] == "010001") {
               // 第三星印
               jp = "※";
             }
@@ -3385,11 +2972,7 @@ function putJP(ctx, x, y, color) {
       }
       break;
     case "外字":
-      if (
-        pos > 0 &&
-        log_braille[pos - 1] == "000011" &&
-        braille in gaijifu_kakomi
-      ) {
+      if (pos > 0 && log_braille[pos - 1] == "000011" && braille in gaijifu_kakomi) {
         // 外字符＋囲み　開始：【、『、《
         jp = gaijifu_kakomi[braille];
         inKakomis[kakomi_no[jp]] = true;
@@ -3812,32 +3395,14 @@ document.onkeyup = function (e) {
   if (pos >= free_maxchar) {
     clearKeyState();
     document.getElementById(soundEffect[soundEffectName]["mistake"]).pause(); // タイピングが速い場合、音声が
-    document.getElementById(
-      soundEffect[soundEffectName]["mistake"]
-    ).currentTime = 0; // 再生されないためこの2行が必要
+    document.getElementById(soundEffect[soundEffectName]["mistake"]).currentTime = 0; // 再生されないためこの2行が必要
     document.getElementById(soundEffect[soundEffectName]["mistake"]).play();
     return;
   }
-  if (
-    keyState[0] ||
-    keyState[1] ||
-    keyState[2] ||
-    keyState[3] ||
-    keyState[4] ||
-    keyState[5] ||
-    keyState[6]
-  ) {
+  if (keyState[0] || keyState[1] || keyState[2] || keyState[3] || keyState[4] || keyState[5] || keyState[6]) {
     return;
   }
-  if (
-    !keybuf[0] &&
-    !keybuf[1] &&
-    !keybuf[2] &&
-    !keybuf[3] &&
-    !keybuf[4] &&
-    !keybuf[5] &&
-    !keybuf[6]
-  ) {
+  if (!keybuf[0] && !keybuf[1] && !keybuf[2] && !keybuf[3] && !keybuf[4] && !keybuf[5] && !keybuf[6]) {
     return;
   }
   for (var i = 0; i < 6; i++) {
@@ -3861,15 +3426,7 @@ document.onkeyup = function (e) {
   if (keybuf[5] == true) {
     dot[5] = "1";
   }
-  if (
-    keybuf[6] == true ||
-    dot[0] == "1" ||
-    dot[1] == "1" ||
-    dot[2] == "1" ||
-    dot[3] == "1" ||
-    dot[4] == "1" ||
-    dot[5] == "1"
-  ) {
+  if (keybuf[6] == true || dot[0] == "1" || dot[1] == "1" || dot[2] == "1" || dot[3] == "1" || dot[4] == "1" || dot[5] == "1") {
     var inkey = dot[0] + dot[1] + dot[2] + dot[3] + dot[4] + dot[5];
     if (inkey in braille_unicode) {
       keyStr = braille_unicode[inkey];
@@ -3883,29 +3440,17 @@ document.onkeyup = function (e) {
         //Speech(down_task_list[taskNum][random][0].charAt(pos));
         if (voiceSwitch) word2speech();
         if (soundEffectName != "none") {
-          document
-            .getElementById(soundEffect[soundEffectName]["correct"])
-            .pause(); // タイピングが速い場合、音声が
-          document.getElementById(
-            soundEffect[soundEffectName]["correct"]
-          ).currentTime = 0; // 再生されないためこの2行が必要
-          document
-            .getElementById(soundEffect[soundEffectName]["correct"])
-            .play();
+          document.getElementById(soundEffect[soundEffectName]["correct"]).pause(); // タイピングが速い場合、音声が
+          document.getElementById(soundEffect[soundEffectName]["correct"]).currentTime = 0; // 再生されないためこの2行が必要
+          document.getElementById(soundEffect[soundEffectName]["correct"]).play();
         }
         pos++;
       } else {
         mistake++;
         if (soundEffectName != "none") {
-          document
-            .getElementById(soundEffect[soundEffectName]["mistake"])
-            .pause(); // タイピングが速い場合、音声が
-          document.getElementById(
-            soundEffect[soundEffectName]["mistake"]
-          ).currentTime = 0; // 再生されないためこの2行が必要
-          document
-            .getElementById(soundEffect[soundEffectName]["mistake"])
-            .play();
+          document.getElementById(soundEffect[soundEffectName]["mistake"]).pause(); // タイピングが速い場合、音声が
+          document.getElementById(soundEffect[soundEffectName]["mistake"]).currentTime = 0; // 再生されないためこの2行が必要
+          document.getElementById(soundEffect[soundEffectName]["mistake"]).play();
         }
       }
       clearKeyState();
@@ -4023,34 +3568,17 @@ document.onkeyup = function (e) {
       showFooter();
       if (course != 0) {
         if (soundEffectName != "none") {
-          document
-            .getElementById(soundEffect[soundEffectName]["correct"])
-            .pause(); // タイピングが速い場合、音声が
-          document.getElementById(
-            soundEffect[soundEffectName]["correct"]
-          ).currentTime = 0; // 再生されないためこの2行が必要
-          document
-            .getElementById(soundEffect[soundEffectName]["correct"])
-            .play();
+          document.getElementById(soundEffect[soundEffectName]["correct"]).pause(); // タイピングが速い場合、音声が
+          document.getElementById(soundEffect[soundEffectName]["correct"]).currentTime = 0; // 再生されないためこの2行が必要
+          document.getElementById(soundEffect[soundEffectName]["correct"]).play();
         }
       }
       if (is_hint) {
         if (course == 1) {
-          var metric = context.measureText(
-            beginners_task_list_braille[random].substring(0, pos + 1)
-          );
-          putRoundText(
-            context,
-            60,
-            250,
-            beginners_task_list_braille[random].substring(0, pos + 1),
-            colorPalette.red1,
-            false
-          );
+          var metric = context.measureText(beginners_task_list_braille[random].substring(0, pos + 1));
+          putRoundText(context, 60, 250, beginners_task_list_braille[random].substring(0, pos + 1), colorPalette.red1, false);
         } else if (course == 2) {
-          var metric = context.measureText(
-            intermediate_task_list_braille[random].substring(0, pos + 1)
-          );
+          var metric = context.measureText(intermediate_task_list_braille[random].substring(0, pos + 1));
           putRoundText(
             context,
             60,
@@ -4060,17 +3588,8 @@ document.onkeyup = function (e) {
             false
           );
         } else if (course == 3) {
-          var metric = context.measureText(
-            advanced_task_list_braille[random].substring(0, pos + 1)
-          );
-          putRoundText(
-            context,
-            60,
-            250,
-            advanced_task_list_braille[random].substring(0, pos + 1),
-            colorPalette.red1,
-            false
-          );
+          var metric = context.measureText(advanced_task_list_braille[random].substring(0, pos + 1));
+          putRoundText(context, 60, 250, advanced_task_list_braille[random].substring(0, pos + 1), colorPalette.red1, false);
         }
       }
       if (pos < free_maxchar) pos++;
@@ -4081,12 +3600,8 @@ document.onkeyup = function (e) {
       mistake++;
       putBraille(context, 70 + pos * 40, ch - 180, colorPalette.red2);
       if (soundEffectName != "none") {
-        document
-          .getElementById(soundEffect[soundEffectName]["mistake"])
-          .pause(); // タイピングが速い場合、音声が
-        document.getElementById(
-          soundEffect[soundEffectName]["mistake"]
-        ).currentTime = 0; // 再生されないためこの2行が必要
+        document.getElementById(soundEffect[soundEffectName]["mistake"]).pause(); // タイピングが速い場合、音声が
+        document.getElementById(soundEffect[soundEffectName]["mistake"]).currentTime = 0; // 再生されないためこの2行が必要
         document.getElementById(soundEffect[soundEffectName]["mistake"]).play();
       }
     }
@@ -4101,9 +3616,7 @@ document.onkeyup = function (e) {
       }
       if (pos == len) {
         if (soundEffectName != "none") {
-          var cleartask = document.getElementById(
-            soundEffect[soundEffectName]["clear"]
-          );
+          var cleartask = document.getElementById(soundEffect[soundEffectName]["clear"]);
           cleartask.addEventListener("ended", function (e) {
             pos = 0;
             if (time_remaining > 0) {
