@@ -2287,19 +2287,7 @@ function showTask() {
   // 同じ意味のペアをタップしてください
 }
 function showFooter() {
-  let names = [
-    "kana",
-    "Numbers",
-    "外字",
-    "Uppercase letters",
-    "外国語引用",
-    "濁音",
-    "半濁音",
-    "拗音",
-    "特殊音",
-    "つなぎ",
-    "Box",
-  ];
+  let names = ["Alphabet", "Indicators", "Punctunation", "Numbers", "Signs of Operation & Comparision"];
 
   var flags = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
   var k = 0;
